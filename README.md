@@ -1,18 +1,44 @@
 # Gram - Instagram Clone (MERN)
 
-Ovo je full-stack aplikacija za dijeljenje slika napravljena pomoću MERN stacka.
+A full-stack image-sharing application built with the MERN stack.
 
-## 🛠 Tehnologije
+## 🛠 Technologies
 - **Backend:** Node.js, Express, Mongoose
-- **Baza podataka:** MongoDB Atlas
-- **Frontend:** React (u planu)
+- **Database:** MongoDB Atlas
+- **Frontend:** React (Planned)
 
-## 🚀 Kako pokrenuti projekt
-1. Kloniraj repozitorij: `git clone <link_repozitorija>`
-2. Uđi u server folder: `cd server`
-3. Instaliraj zavisnosti: `npm install` (ovo instalira onih 110 paketa koje ne pushamo na Git)
-4. **Važno:** Kreiraj `.env` fajl u `server` folderu i dodaj:
-   `MONGO_URI=vaš_konekcijski_string`
-5. Pokreni server: 
-   - Preko skripte: `npm run dev`
-   - Direktno (ako imaš globalni nodemon): `nodemon app`
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone <your-repository-link>
+2. Setup the Server
+Navigate to the server directory:
+
+Bash
+
+cd server
+Install dependencies:
+
+Bash
+
+npm install
+3. Environment Variables
+Important: Create a .env file in the server folder and add your connection string from MongoDB Atlas:
+
+Plaintext
+
+MONGO_URI=your_mongodb_connection_string
+4. Run the Application
+You can start the server in two ways:
+
+Using the dev script:
+
+Bash
+
+npm run dev
+Using nodemon directly (requires global installation):
+
+Bash
+
+nodemon app
